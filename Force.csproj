@@ -107,14 +107,13 @@
     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
+    <Compile Include="Assets\Scripts\CameraBoundSet.cs" />
     <Compile Include="Assets\Scripts\CameraPosition.cs" />
     <Compile Include="Assets\Scripts\ChaserCamera.cs" />
     <Compile Include="Assets\Scripts\Dragger.cs" />
-    <Compile Include="Assets\Scripts\InterParent.cs" />
-    <Compile Include="Assets\Scripts\InterfaceTest.cs" />
+    <Compile Include="Assets\Scripts\LineSetter.cs" />
     <Compile Include="Assets\Scripts\Pool.cs" />
     <Compile Include="Assets\Scripts\Scroller.cs" />
-    <Compile Include="Assets\Scripts\Test.cs" />
     <Compile Include="Assets\Scripts\WallSetter.cs" />
   </ItemGroup>
   <ItemGroup>

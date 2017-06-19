@@ -8,11 +8,7 @@ public class Pool : MonoBehaviour
     Object prefab;
 
     List<GameObject> list = new List<GameObject>();
-    void Start ()
-    {
-		
-	}
-
+    
     public GameObject Request(Transform tra)
     {
         bool InitFlg = false;
@@ -30,9 +26,10 @@ public class Pool : MonoBehaviour
         }
         if (!InitFlg)
         {
-            GameObject x = (GameObject)Instantiate(prefab);
-            list.Add(x);
-            returnObj = x;
+            GameObject g = (GameObject)Instantiate(prefab);
+            list.Add(g);
+            g.transform.parent = tra;
+            returnObj = g;
         }
         return returnObj;
     }

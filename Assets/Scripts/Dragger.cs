@@ -6,7 +6,7 @@ public class Dragger : MonoBehaviour
 {
     [SerializeField]
     Rigidbody2D rb;
-    Vector3 pos = new Vector3(0,-3,0);
+    Vector3 pos = new Vector3(0,-2,0);
     void Update()
     {
         if (Input.touchCount != 0)
