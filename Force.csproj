@@ -111,6 +111,8 @@
     <Compile Include="Assets\Scripts\CameraPosition.cs" />
     <Compile Include="Assets\Scripts\ChaserCamera.cs" />
     <Compile Include="Assets\Scripts\Dragger.cs" />
+    <Compile Include="Assets\Scripts\HighScoreHolder.cs" />
+    <Compile Include="Assets\Scripts\LineAndWall.cs" />
     <Compile Include="Assets\Scripts\LineSetter.cs" />
     <Compile Include="Assets\Scripts\Pool.cs" />
     <Compile Include="Assets\Scripts\Scroller.cs" />
